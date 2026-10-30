@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdrgen"
+version = "2.1.0"
+description = "z/TPF .TDR script generator and validator with a Claude-backed assistant"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+ai = ["anthropic>=0.40"]
+ui = ["streamlit>=1.50,<2", "anthropic>=0.40"]
+pdf = ["pypdf>=4"]
+all = ["streamlit>=1.50,<2", "anthropic>=0.40", "pypdf>=4"]
+
+[project.scripts]
+tdrgen = "tdrgen.cli:main"
+
+[tool.setuptools]
+packages = ["tdrgen"]

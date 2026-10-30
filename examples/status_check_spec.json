@@ -1,0 +1,17 @@
+{
+  "global_unexpected": [],
+  "steps": [
+    {
+      "command": "ZSTAT DACS",
+      "timeout": 120,
+      "expected": ["STAT0007I"],
+      "comment": "DACS status. Confirmed in response catalog."
+    },
+    {
+      "command": "ZTTCP DIS ALL",
+      "timeout": 120,
+      "expected": ["TTCP0184I", "END OF DISPLAY+"],
+      "comment": "TCP connection display. Confirmed in response catalog."
+    }
+  ]
+}

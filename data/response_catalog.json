@@ -1,0 +1,4861 @@
+{
+  "purpose": "Observed command-to-expected-response patterns extracted from historical z/TPF operational test runs.",
+  "warning": "Historical sample evidence only. Not proof of a response on every system, release, state, or environment.",
+  "entries": [
+    {
+      "command": "B",
+      "responses": [
+        {
+          "response": "IPLB0147A",
+          "count": 2
+        },
+        {
+          "response": "SPECIFY: N - NORMAL IPL",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "D",
+      "responses": [
+        {
+          "response": "IPLB0048A",
+          "count": 2
+        },
+        {
+          "response": "SPECIFY THE WORD BYPASS",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "E",
+      "responses": [
+        {
+          "response": "IPLB0147A",
+          "count": 1
+        },
+        {
+          "response": "SPECIFY: N - NORMAL IPL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "G",
+      "responses": [
+        {
+          "response": "IPLB0147A",
+          "count": 1
+        },
+        {
+          "response": "SPECIFY: N - NORMAL IPL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "N",
+      "responses": [
+        {
+          "response": "FKPA0021A",
+          "count": 2
+        },
+        {
+          "response": "TO CONTINUE RESTART ENTER -",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/B9010000/DCA-12000/12100",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/B9010000/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA INACTIVE|SBK-WSINE 000000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE080000/DCA-12021/12121",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE080000/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE090000/DCA-12023/12123",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE090000/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE090003/DCA-12024/12124",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE090003/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE0B0000/DCA-12026/12126",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE0B0000/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE100000/DCA-12028/12128",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE100000/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE100001/DCA-12029/12129",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE100001/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE240000/DCA-12044/12144",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE240000/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE240001/DCA-12045/12145",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "DCA SLOT NUMBERS ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/A/EE240001/SBK",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA CONFIGURATION ADDED",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE080000/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE090000/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE090003/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE0B0000/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE100000/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE100001/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE240000/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/H/EE240001/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "HYBRID CONFIGURATION TURNED ON",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//KAFKA/K/B9010000/ON",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "KAFKA ACTIVE  |SBK-WSINE 000000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//VCTR CD28/A/80/0000002C/B9010000/2037/180701/00/0000/NNYNNNY/PIDS /PIDS REPLICATION/REACCOM PNRS",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "OK >ZUDFM OAI/CD28/ORDC058",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//VCTR CD28/O/80/0000002C/B9010000",
+      "responses": [
+        {
+          "response": "VERIFY I/P AND RE-ENTER WITHIN 60 SECONDS",
+          "count": 1
+        },
+        {
+          "response": "OK >ZUDFM OAI/CD28/ORDC058",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0//VCTR DISPLAY CONFIG L-C",
+      "responses": [
+        {
+          "response": "TARGET NAME-EE350006-1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0/SVT*MSC/BYA/7OFF",
+      "responses": [
+        {
+          "response": "MSC BYA 10010110",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "RES0/TMAILSENDDMS/0001/0001",
+      "responses": [
+        {
+          "response": "GOOD RETURN - MESSAGE SENT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB///ZCONN STOP G-RESTTOC",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB///ZCONN STOP G-RESTTOF",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB///zmqsc clear ql-KAFKA.ERROR.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB///zmqsc clear ql-KAFKA.INPUT.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//RES0/VCTR CONFIG HEALTH OFF",
+      "responses": [
+        {
+          "response": "EV200903I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAGBL GGB300 029 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAGBL GGB300 033 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAGBL GGB300 03D 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAGBL GGB300 047 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAGBL GGB300 051 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAGBL GGB300 05B 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZAPGM FIT9 116 47F0 C-C VALDATA-4780",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZCTKA DISP BLOCK",
+      "responses": [
+        {
+          "response": "CTKA0167I",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZDSYS",
+      "responses": [
+        {
+          "response": "THE SYSTEM IS IN NORM STATE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZINET ADD S-TPFS PGM-Z2S6 MODEL-AOR PORT-6100 P-TCP IP-ANY AORL-4 ACT-AUTO STATE-NORM",
+      "responses": [
+        {
+          "response": "INET0011I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZINET START S-TPFS",
+      "responses": [
+        {
+          "response": "INET0017I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZINET STOP S-RESTSECR",
+      "responses": [
+        {
+          "response": "INET0019I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZJAMC D",
+      "responses": [
+        {
+          "response": "JAMC0008I",
+          "count": 2
+        },
+        {
+          "response": "11 ACTIVE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZLDAC ON 1A/H2H",
+      "responses": [
+        {
+          "response": "LN CHNGD TO DACS-H2H",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZLDLS DN ALL",
+      "responses": [
+        {
+          "response": "DN02 DACS-TCP                IND 1001 VAL ALL STA",
+          "count": 1
+        },
+        {
+          "response": "ST1A DACS-H2H                IND 1021 VAL TST STA",
+          "count": 1
+        },
+        {
+          "response": "IND 1001 VAL ALL STA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZLIDL DN 1A",
+      "responses": [
+        {
+          "response": "TCPB0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZLSTA ALL",
+      "responses": [
+        {
+          "response": "LSTA ALL ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZLSTA ST 1A",
+      "responses": [
+        {
+          "response": "LSTA ST1A STRA  ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZLVAL ST 1A",
+      "responses": [
+        {
+          "response": "TCPD0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZMQSC DIS CHS-*",
+      "responses": [
+        {
+          "response": "ADLATRSN.DLM61INT.02 SDR        RUNNING",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZSOCK INACT LPORT-8088",
+      "responses": [
+        {
+          "response": "SOCK0018I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZSTIM A FR=EVERY,TIME=10,MSG=ZHTPS STATS SERVER-RESTSECR",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZSTIM A FR=EVERY,TIME=30,MSG=ZSRVC STATS ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZSYSL A C-LOBATCH,SWB-30",
+      "responses": [
+        {
+          "response": "SYSL0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZSYSL DISPLAY UTILCLASS-ALL COPY-B",
+      "responses": [
+        {
+          "response": "SYSL0054I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZUCOM BTP STG AA DIS",
+      "responses": [
+        {
+          "response": "DBTT0008I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZUCOM BTP STG AA INIT",
+      "responses": [
+        {
+          "response": "DBTT0003I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZUFDT ADD DUMP ERROR-30003B",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZUMPC DISPLAY PGM-KU4Y",
+      "responses": [
+        {
+          "response": "UMPC0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZUMPC RESET ALL",
+      "responses": [
+        {
+          "response": "UMPC0008I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZUMPC START",
+      "responses": [
+        {
+          "response": "UMPC0032E",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//ZXMSG AM ALT SEND OFF",
+      "responses": [
+        {
+          "response": "UAMP0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zaser dupl",
+      "responses": [
+        {
+          "response": "ASER0000I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zmqsc disp ql-tpfmail.input.queue stat",
+      "responses": [
+        {
+          "response": "MQSC0285I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq-every,time=02,msg=zdRHT DISPLAY QUEUE-5",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=01,msg=ZSOCK EXC RETRANS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=01,msg=ZTTCP DIS STATS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=01,msg=zDMOD DISP QUE-3",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=01,msg=zucov capm m all",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=02,msg=zdecb",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=02,msg=zstat gpu",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=ZDECB STAT",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=ZDECB SURVEY INC-ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=ZSTAT U",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=ZSYSL D C-LOBATCH",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=ZSYSL DISPLAY UTIL STATS-USRREAC1",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=zldfs soa",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zstim a freq=every,time=15,msg=zuprf srm .15",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zufdt add e-560007 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zufdt add e-690c63 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB//zufdt add e-DB0112 P-Z2S6 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB/ZMQSC RESET CHL-ADLATRSN.DLM61INT.02 SEQNUM-1",
+      "responses": [
+        {
+          "response": "MQSC0316I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB/ZMQSC START CHL-ADLATRSN.DLM61INT.02",
+      "responses": [
+        {
+          "response": "MQSC0315I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPB/ZMQSC STOP CHL-ADLATRSN.DLM61INT.02",
+      "responses": [
+        {
+          "response": "MQSC0311I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD///ZCONN STOP G-RESTTOC",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD///ZCONN STOP G-RESTTOF",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD///zmqsc clear ql-KAFKA.ERROR.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD///zmqsc clear ql-KAFKA.INPUT.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//RES0/VCTR CONFIG HEALTH OFF",
+      "responses": [
+        {
+          "response": "EV200903I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAGBL GGB300 029 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAGBL GGB300 033 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAGBL GGB300 03D 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAGBL GGB300 047 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAGBL GGB300 051 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAGBL GGB300 05B 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZAPGM FIT9 116 47F0 C-C VALDATA-4780",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZCTKA DISP BLOCK",
+      "responses": [
+        {
+          "response": "CTKA0167I",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZDSYS",
+      "responses": [
+        {
+          "response": "THE SYSTEM IS IN NORM STATE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZINET ADD S-TPFS PGM-Z2S6 MODEL-AOR PORT-6100 P-TCP IP-ANY AORL-4 ACT-AUTO STATE-NORM",
+      "responses": [
+        {
+          "response": "INET0011I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZINET START S-TPFS",
+      "responses": [
+        {
+          "response": "INET0017I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZINET STOP S-RESTSECR",
+      "responses": [
+        {
+          "response": "INET0019I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZJAMC D",
+      "responses": [
+        {
+          "response": "JAMC0008I",
+          "count": 2
+        },
+        {
+          "response": "11 ACTIVE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZLDAC ON 1A/H2H",
+      "responses": [
+        {
+          "response": "LN CHNGD TO DACS-H2H",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZLDLS DN ALL",
+      "responses": [
+        {
+          "response": "DN02 DACS-TCP                IND 1001 VAL ALL STA",
+          "count": 1
+        },
+        {
+          "response": "ST1A DACS-H2H                IND 1021 VAL TST STA",
+          "count": 1
+        },
+        {
+          "response": "IND 1001 VAL ALL STA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZLIDL DN 1A",
+      "responses": [
+        {
+          "response": "TCPB0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZLSTA ALL",
+      "responses": [
+        {
+          "response": "LSTA ALL ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZLSTA ST 1A",
+      "responses": [
+        {
+          "response": "LSTA ST1A STRA  ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZLVAL ST 1A",
+      "responses": [
+        {
+          "response": "TCPD0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZMQSC DIS CHS-*",
+      "responses": [
+        {
+          "response": "ADLATRSN.DLM61INT.04 SDR        RUNNING",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZSOCK INACT LPORT-8088",
+      "responses": [
+        {
+          "response": "SOCK0018I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZSTIM A FR=EVERY,TIME=10,MSG=ZHTPS STATS SERVER-RESTSECR",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZSTIM A FR=EVERY,TIME=30,MSG=ZSRVC STATS ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZSYSL A C-LOBATCH,SWB-30",
+      "responses": [
+        {
+          "response": "SYSL0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZSYSL DISPLAY UTILCLASS-ALL COPY-B",
+      "responses": [
+        {
+          "response": "SYSL0054I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZUCOM BTP STG AA DIS",
+      "responses": [
+        {
+          "response": "DBTT0008I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZUCOM BTP STG AA INIT",
+      "responses": [
+        {
+          "response": "DBTT0003I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZUFDT ADD DUMP ERROR-30003B",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZUMPC DISPLAY PGM-KU4Y",
+      "responses": [
+        {
+          "response": "UMPC0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZUMPC RESET ALL",
+      "responses": [
+        {
+          "response": "UMPC0008I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZUMPC START",
+      "responses": [
+        {
+          "response": "UMPC0032E",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//ZXMSG AM ALT SEND OFF",
+      "responses": [
+        {
+          "response": "UAMP0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zaser dupl",
+      "responses": [
+        {
+          "response": "ASER0000I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zmqsc disp ql-tpfmail.input.queue stat",
+      "responses": [
+        {
+          "response": "MQSC0285I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq-every,time=02,msg=zdRHT DISPLAY QUEUE-5",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=01,msg=ZSOCK EXC RETRANS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=01,msg=ZTTCP DIS STATS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=01,msg=zDMOD DISP QUE-3",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=01,msg=zucov capm m all",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=02,msg=zdecb",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=02,msg=zstat gpu",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=ZDECB STAT",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=ZDECB SURVEY INC-ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=ZSTAT U",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=ZSYSL D C-LOBATCH",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=ZSYSL DISPLAY UTIL STATS-USRREAC1",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=zldfs soa",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zstim a freq=every,time=15,msg=zuprf srm .15",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zufdt add e-560007 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zufdt add e-690c63 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD//zufdt add e-DB0112 P-Z2S6 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD/ZMQSC RESET CHL-ADLATRSN.DLM61INT.04 SEQNUM-1",
+      "responses": [
+        {
+          "response": "MQSC0316I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD/ZMQSC START CHL-ADLATRSN.DLM61INT.04",
+      "responses": [
+        {
+          "response": "MQSC0315I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPD/ZMQSC STOP CHL-ADLATRSN.DLM61INT.04",
+      "responses": [
+        {
+          "response": "MQSC0311I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE///ZCONN STOP G-RESTTOC",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE///ZCONN STOP G-RESTTOF",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE///zmqsc clear ql-KAFKA.ERROR.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE///zmqsc clear ql-KAFKA.INPUT.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//RES0/VCTR CONFIG HEALTH OFF",
+      "responses": [
+        {
+          "response": "EV200903I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAGBL GGB300 029 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAGBL GGB300 033 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAGBL GGB300 03D 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAGBL GGB300 047 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAGBL GGB300 051 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAGBL GGB300 05B 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZAPGM FIT9 116 47F0 C-C VALDATA-4780",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZCTKA DISP BLOCK",
+      "responses": [
+        {
+          "response": "CTKA0167I",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZDSYS",
+      "responses": [
+        {
+          "response": "THE SYSTEM IS IN NORM STATE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZINET ADD S-TPFS PGM-Z2S6 MODEL-AOR PORT-6100 P-TCP IP-ANY AORL-4 ACT-AUTO STATE-NORM",
+      "responses": [
+        {
+          "response": "INET0011I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZINET START S-TPFS",
+      "responses": [
+        {
+          "response": "INET0017I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZINET STOP S-RESTSECR",
+      "responses": [
+        {
+          "response": "INET0019I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZJAMC D",
+      "responses": [
+        {
+          "response": "JAMC0008I",
+          "count": 2
+        },
+        {
+          "response": "11 ACTIVE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZLDAC ON 1A/H2H",
+      "responses": [
+        {
+          "response": "LN CHNGD TO DACS-H2H",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZLDLS DN ALL",
+      "responses": [
+        {
+          "response": "DN02 DACS-TCP                IND 1001 VAL ALL STA",
+          "count": 1
+        },
+        {
+          "response": "ST1A DACS-H2H                IND 1021 VAL TST STA",
+          "count": 1
+        },
+        {
+          "response": "IND 1001 VAL ALL STA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZLIDL DN 1A",
+      "responses": [
+        {
+          "response": "TCPB0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZLSTA ALL",
+      "responses": [
+        {
+          "response": "LSTA ALL ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZLSTA ST 1A",
+      "responses": [
+        {
+          "response": "LSTA ST1A STRA  ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZLVAL ST 1A",
+      "responses": [
+        {
+          "response": "TCPD0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZMQSC DIS CHS-*",
+      "responses": [
+        {
+          "response": "ADLATRSN.DLM61INT.05 SDR        RUNNING",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZSOCK INACT LPORT-8088",
+      "responses": [
+        {
+          "response": "SOCK0018I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZSTIM A FR=EVERY,TIME=10,MSG=ZHTPS STATS SERVER-RESTSECR",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZSTIM A FR=EVERY,TIME=30,MSG=ZSRVC STATS ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZSYSL A C-LOBATCH,SWB-30",
+      "responses": [
+        {
+          "response": "SYSL0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZSYSL DISPLAY UTILCLASS-ALL COPY-B",
+      "responses": [
+        {
+          "response": "SYSL0054I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZUCOM BTP STG AA DIS",
+      "responses": [
+        {
+          "response": "DBTT0008I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZUCOM BTP STG AA INIT",
+      "responses": [
+        {
+          "response": "DBTT0003I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZUFDT ADD DUMP ERROR-30003B",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZUMPC DISPLAY PGM-KU4Y",
+      "responses": [
+        {
+          "response": "UMPC0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZUMPC RESET ALL",
+      "responses": [
+        {
+          "response": "UMPC0008I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZUMPC START",
+      "responses": [
+        {
+          "response": "UMPC0032E",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//ZXMSG AM ALT SEND OFF",
+      "responses": [
+        {
+          "response": "UAMP0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zaser dupl",
+      "responses": [
+        {
+          "response": "ASER0000I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zmqsc disp ql-tpfmail.input.queue stat",
+      "responses": [
+        {
+          "response": "MQSC0285I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq-every,time=02,msg=zdRHT DISPLAY QUEUE-5",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=01,msg=ZSOCK EXC RETRANS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=01,msg=ZTTCP DIS STATS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=01,msg=zDMOD DISP QUE-3",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=01,msg=zucov capm m all",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=02,msg=zdecb",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=02,msg=zstat gpu",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=ZDECB STAT",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=ZDECB SURVEY INC-ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=ZSTAT U",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=ZSYSL D C-LOBATCH",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=ZSYSL DISPLAY UTIL STATS-USRREAC1",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=zldfs soa",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zstim a freq=every,time=15,msg=zuprf srm .15",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zufdt add e-560007 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zufdt add e-690c63 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE//zufdt add e-DB0112 P-Z2S6 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE/ZMQSC RESET CHL-ADLATRSN.DLM61INT.05 SEQNUM-1",
+      "responses": [
+        {
+          "response": "MQSC0316I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE/ZMQSC START CHL-ADLATRSN.DLM61INT.05",
+      "responses": [
+        {
+          "response": "MQSC0315I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPE/ZMQSC STOP CHL-ADLATRSN.DLM61INT.05",
+      "responses": [
+        {
+          "response": "MQSC0311I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG///ZCONN STOP G-RESTTOC",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG///ZCONN STOP G-RESTTOF",
+      "responses": [
+        {
+          "response": "CONN0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG///zmqsc clear ql-KAFKA.ERROR.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG///zmqsc clear ql-KAFKA.INPUT.QUEUE force",
+      "responses": [
+        {
+          "response": "MQSC0219I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//RES0/VCTR CONFIG HEALTH OFF",
+      "responses": [
+        {
+          "response": "EV200903I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAGBL GGB300 029 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAGBL GGB300 033 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAGBL GGB300 03D 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAGBL GGB300 047 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAGBL GGB300 051 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAGBL GGB300 05B 00",
+      "responses": [
+        {
+          "response": "AGBL0046I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZAPGM FIT9 116 47F0 C-C VALDATA-4780",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZCTKA DISP BLOCK",
+      "responses": [
+        {
+          "response": "CTKA0167I",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZDSYS",
+      "responses": [
+        {
+          "response": "THE SYSTEM IS IN NORM STATE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZINET ADD S-TPFS PGM-Z2S6 MODEL-AOR PORT-6100 P-TCP IP-ANY AORL-4 ACT-AUTO STATE-NORM",
+      "responses": [
+        {
+          "response": "INET0011I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZINET START S-TPFS",
+      "responses": [
+        {
+          "response": "INET0017I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZINET STOP S-RESTSECR",
+      "responses": [
+        {
+          "response": "INET0019I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZJAMC D",
+      "responses": [
+        {
+          "response": "JAMC0008I",
+          "count": 2
+        },
+        {
+          "response": "11 ACTIVE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZLDAC ON 1A/H2H",
+      "responses": [
+        {
+          "response": "LN CHNGD TO DACS-H2H",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZLDLS DN ALL",
+      "responses": [
+        {
+          "response": "DN02 DACS-TCP                IND 1001 VAL ALL STA",
+          "count": 1
+        },
+        {
+          "response": "ST1A DACS-H2H                IND 1021 VAL TST STA",
+          "count": 1
+        },
+        {
+          "response": "IND 1001 VAL ALL STA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZLIDL DN 1A",
+      "responses": [
+        {
+          "response": "TCPB0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZLSTA ALL",
+      "responses": [
+        {
+          "response": "LSTA ALL ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZLSTA ST 1A",
+      "responses": [
+        {
+          "response": "LSTA ST1A STRA  ON OK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZLVAL ST 1A",
+      "responses": [
+        {
+          "response": "TCPD0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZMQSC DIS CHS-*",
+      "responses": [
+        {
+          "response": "ADLATRSN.DLM61INT.07 SDR        RUNNING",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZSOCK INACT LPORT-8088",
+      "responses": [
+        {
+          "response": "SOCK0018I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZSTIM A FR=EVERY,TIME=10,MSG=ZHTPS STATS SERVER-RESTSECR",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZSTIM A FR=EVERY,TIME=30,MSG=ZSRVC STATS ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZSYSL A C-LOBATCH,SWB-30",
+      "responses": [
+        {
+          "response": "SYSL0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZSYSL DISPLAY UTILCLASS-ALL COPY-B",
+      "responses": [
+        {
+          "response": "SYSL0054I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZUCOM BTP STG AA DIS",
+      "responses": [
+        {
+          "response": "DBTT0008I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZUCOM BTP STG AA INIT",
+      "responses": [
+        {
+          "response": "DBTT0003I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZUFDT ADD DUMP ERROR-30003B",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZUMPC DISPLAY PGM-KU4Y",
+      "responses": [
+        {
+          "response": "UMPC0003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZUMPC RESET ALL",
+      "responses": [
+        {
+          "response": "UMPC0008I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZUMPC START",
+      "responses": [
+        {
+          "response": "UMPC0032E",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//ZXMSG AM ALT SEND OFF",
+      "responses": [
+        {
+          "response": "UAMP0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zaser dupl",
+      "responses": [
+        {
+          "response": "ASER0000I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zmqsc disp ql-tpfmail.input.queue stat",
+      "responses": [
+        {
+          "response": "MQSC0285I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq-every,time=02,msg=zdRHT DISPLAY QUEUE-5",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=01,msg=ZSOCK EXC RETRANS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=01,msg=ZTTCP DIS STATS",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=01,msg=zDMOD DISP QUE-3",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=01,msg=zucov capm m all",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=02,msg=zdecb",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=02,msg=zstat gpu",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=ZDECB STAT",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=ZDECB SURVEY INC-ALL",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=ZSTAT U",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=ZSYSL D C-LOBATCH",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=ZSYSL DISPLAY UTIL STATS-USRREAC1",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=zldfs soa",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zstim a freq=every,time=15,msg=zuprf srm .15",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zufdt add e-560007 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zufdt add e-690c63 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG//zufdt add e-DB0112 P-Z2S6 nodump",
+      "responses": [
+        {
+          "response": "UFDT0015I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG/ZMQSC RESET CHL-ADLATRSN.DLM61INT.07 SEQNUM-1",
+      "responses": [
+        {
+          "response": "MQSC0316I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG/ZMQSC START CHL-ADLATRSN.DLM61INT.07",
+      "responses": [
+        {
+          "response": "MQSC0315I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "SMPG/ZMQSC STOP CHL-ADLATRSN.DLM61INT.07",
+      "responses": [
+        {
+          "response": "MQSC0311I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZAPGM CCSONS 35A A784 V-A7F4 C-B",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZAPGM CCSONS 9C06 A784 V-A7F4 C-B",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZAPGM CPAH 89E 4780 V-47F0 C-B",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZAPGM FIT9 116 47F0 C-F VALDATA-4780",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZASTB A 990D21",
+      "responses": [
+        {
+          "response": "990D21 NOW CRAS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZASTB A 992821",
+      "responses": [
+        {
+          "response": "992821 NOW CRAS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZCXDK SET DRTIND ON",
+      "responses": [
+        {
+          "response": "CXDK0003I",
+          "count": 2
+        },
+        {
+          "response": "ALL FRAPS MADE UNAVAIL IN TPF BY TCPI+",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZCYCL NORM",
+      "responses": [
+        {
+          "response": "CVCX0001I",
+          "count": 5
+        },
+        {
+          "response": "SS BSS  NOW IN NORM STATE +",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "command": "ZDDAC CNT MSG",
+      "responses": [
+        {
+          "response": "RS4   DACS MESSAGE COUNTS",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZDFLD",
+      "responses": [
+        {
+          "response": "DFLD0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZFKPA ACC",
+      "responses": [
+        {
+          "response": "'ZATIM HHMM TOD .....   ' +",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZIFIL CC21RR/CC21/00/0/74067/NNN/N",
+      "responses": [
+        {
+          "response": "IFIL0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZIFIL CC22RR/CC22/00/0/74067/NNN/N",
+      "responses": [
+        {
+          "response": "IFIL0005I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-03 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-05 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-06 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-07 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-09 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-0A AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-0B AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-0C AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-0D AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-0E AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-0F AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-10 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-11 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-12 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-13 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-14 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-API APQ-15 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-SOA APQ-03 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-SOA APQ-03 SLN-1A",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-SOA APQ-05 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-SOA APQ-05 SLN-1A",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLCFS VND-SOA APQ-06 AVAIL",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLDFS 1P",
+      "responses": [
+        {
+          "response": "END DISPLAY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLDFS API",
+      "responses": [
+        {
+          "response": "END DISPLAY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLDFS SOA",
+      "responses": [
+        {
+          "response": "END DISPLAY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZLDLS DN ALL",
+      "responses": [
+        {
+          "response": "LDLS0001I",
+          "count": 9
+        },
+        {
+          "response": "DN02 DACS-TCP",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "command": "ZLIDL DN 02",
+      "responses": [
+        {
+          "response": "TCPB0001I",
+          "count": 3
+        },
+        {
+          "response": "NO SOCKET ID FOR  SLN- 02+",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZLSTP ALL",
+      "responses": [
+        {
+          "response": "LSTP0008I",
+          "count": 3
+        },
+        {
+          "response": "LSTP ALL OFF OK",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.BAGS.USE1.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.BAGS.USE1.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.BAGS.USE1.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.BAGS.USW2.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.BAGS.USW2.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.BAGS.USW2.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.CTEDS.USE1.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.CTEDS.USE1.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.CTEDS.USE1.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.CTEDS.USW2.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.CTEDS.USW2.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.CTEDS.USW2.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.EDW.USE1.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.EDW.USE1.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.EDW.USE1.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.EDW.USW2.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.EDW.USW2.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.EDW.USW2.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.IEDS.USE1.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.IEDS.USE1.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.IEDS.USE1.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.IEDS.USW2.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.IEDS.USW2.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.IEDS.USW2.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.PSGR.USE1.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.PSGR.USE1.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.PSGR.USE1.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.PSGR.USW2.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.PSGR.USW2.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.PSGR.USW2.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.RMSC.USE1.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.RMSC.USE1.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.RMSC.USE1.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.RMSC.USW2.ERROR.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.RMSC.USW2.INPUT.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZMQSC ALT QL-KAFKA.RMSC.USW2.RETRY.QUEUE MAXMSGL-1048576",
+      "responses": [
+        {
+          "response": "MQSC0146I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZNCTC MON RESET",
+      "responses": [
+        {
+          "response": "SNAJ0004I",
+          "count": 3
+        },
+        {
+          "response": "APPCC MONITOR RESET COMPLETED",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZOLDR ACC RC500661",
+      "responses": [
+        {
+          "response": "OLDR5252I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZOLDR ACT BARAZZ",
+      "responses": [
+        {
+          "response": "CDBI0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZOLDR ACT RC500661",
+      "responses": [
+        {
+          "response": "OLDR2015I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZOLDR DISP L BARAZZ",
+      "responses": [
+        {
+          "response": "OLDR1200I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZOLDR LOAD OLD",
+      "responses": [
+        {
+          "response": "OLDR3000I",
+          "count": 2
+        },
+        {
+          "response": "OLDR3001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZPOOL 1052 DOWN",
+      "responses": [
+        {
+          "response": "CJ040005I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZPOOL 1052 UP",
+      "responses": [
+        {
+          "response": "CJ040003I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZPUBK DISP ALL",
+      "responses": [
+        {
+          "response": "APIKEYP2",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "command": "ZRIPL",
+      "responses": [
+        {
+          "response": "RESTART COMPLETED- 1052 STATE+",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZRSTT REP",
+      "responses": [
+        {
+          "response": "FKPA0021A",
+          "count": 2
+        },
+        {
+          "response": "TO CONTINUE RESTART ENTER -",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZSTAT DACS",
+      "responses": [
+        {
+          "response": "STAT0007I",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "command": "ZSTIM A FREQ=EVERY,TIME=15,APL=RES0,MSG=O*CQGK",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV ASSIGN 744 844 GROUP RTLGRP",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0744 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0844 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV ASSIGN 745 845 GROUP RTAGRP",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0745 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0845 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV ASSIGN 747 847 GROUP RTLGRP",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0747 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0847 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV ASSIGN 748 848 GROUP RTAGRP",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0748 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 0848 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV ENABLE 744 745 844 845",
+      "responses": [
+        {
+          "response": "COT50001I",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0744 - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0745 - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0844 - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0845 - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV ENABLE 747 748 847 848",
+      "responses": [
+        {
+          "response": "COT50001I",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0747 - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0748 - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0847 - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 0848 - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV UNASSIGN 710 810 GROUP RTAGRP",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0710 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0810 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV UNASSIGN 711 811 GROUP RTLGRP",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0711 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0811 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV UNASSIGN 718 818 GROUP RTAGRP",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0718 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0818 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTDEV UNASSIGN 719 819 GROUP RTLGRP",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0719 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0819 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT OLD 740 AI",
+      "responses": [
+        {
+          "response": "COTM0310I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT OLD 840 AI",
+      "responses": [
+        {
+          "response": "COTM0310I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTA 742 AO",
+      "responses": [
+        {
+          "response": "COTM0310I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTA 745 AO",
+      "responses": [
+        {
+          "response": "COTM0310I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTA 848 AO",
+      "responses": [
+        {
+          "response": "COTM0310I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTA 84B AO",
+      "responses": [
+        {
+          "response": "COTM0310I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTL 741 AO",
+      "responses": [
+        {
+          "response": "RSTT0005A",
+          "count": 2
+        },
+        {
+          "response": "TO CONTINUE RESTART AND UPDATE THE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTL 744 AO",
+      "responses": [
+        {
+          "response": "CVRN0004I",
+          "count": 1
+        },
+        {
+          "response": "RESTART COMPLETED- 1052 STATE+",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTL 847 AO",
+      "responses": [
+        {
+          "response": "CVRN0004I",
+          "count": 1
+        },
+        {
+          "response": "RESTART COMPLETED- 1052 STATE+",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTMNT RTL 84A AO",
+      "responses": [
+        {
+          "response": "CVRN0004I",
+          "count": 1
+        },
+        {
+          "response": "RESTART COMPLETED- 1052 STATE+",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-741 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 2
+        },
+        {
+          "response": "AUTO-LOADED ON 0741",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-742 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 2
+        },
+        {
+          "response": "AUTO-LOADED ON 0742",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-744 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0744",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-745 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0745",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-747 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0747",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-748 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0748",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-74A CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 074A",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-74B CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 074B",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-841 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 2
+        },
+        {
+          "response": "AUTO-LOADED ON 0841",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-842 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 2
+        },
+        {
+          "response": "AUTO-LOADED ON 0842",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-844 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0844",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-845 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0845",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-847 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0847",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-848 CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 0848",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-84A CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 084A",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF FILL DEV-84B CAT-0011",
+      "responses": [
+        {
+          "response": "CORE0397I",
+          "count": 1
+        },
+        {
+          "response": "AUTO-LOADED ON 084B",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF LOAD DEV-740 VSN-K47469",
+      "responses": [
+        {
+          "response": "CORD0398I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTPLF LOAD DEV-840 VSN-K23740",
+      "responses": [
+        {
+          "response": "CORD0398I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTTCP DIS ALL",
+      "responses": [
+        {
+          "response": "TTCP0184I",
+          "count": 3
+        },
+        {
+          "response": "END OF DISPLAY+",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZTTCP INACT ALL",
+      "responses": [
+        {
+          "response": "TTCP0188I",
+          "count": 5
+        },
+        {
+          "response": "INACTIVATION OF ALL IP CONNECTIONS COMPLETED+",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 740-2",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 6
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0740",
+          "count": 2
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0741",
+          "count": 2
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0742",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 743-5",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 3
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0743",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0744",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0745",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 746-8",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 3
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0746",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0747",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0748",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 749-B",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 3
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0749",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 074A",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 074B",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 840-2",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 6
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0840",
+          "count": 2
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0841",
+          "count": 2
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0842",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 843-5",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 3
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0843",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0844",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0845",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 846-8",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 3
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0846",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0847",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0848",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZTVAR A 849-B",
+      "responses": [
+        {
+          "response": "COTU0101I",
+          "count": 3
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 0849",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 084A",
+          "count": 1
+        },
+        {
+          "response": "PROT ENTRY  ADDED   FOR DEVICE 084B",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOM BTP BTI AA 01 CLEAR",
+      "responses": [
+        {
+          "response": "DBTA0002E",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOM BTP BTI AA 01 ON",
+      "responses": [
+        {
+          "response": "DBTA0001E",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOM BTP DCR AA",
+      "responses": [
+        {
+          "response": "DBTB0001I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-B CEC-100",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-B CPC-411",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-D CEC-100",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-D CPC-431",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-E CEC-400",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-E CPC-441",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-G CEC-400",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV PROC UPDATE CPU-G CPC-461",
+      "responses": [
+        {
+          "response": "UCOV0121I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV TFT DISABLE ALL",
+      "responses": [
+        {
+          "response": "UCOV0225I",
+          "count": 5
+        },
+        {
+          "response": "END OF TFT STATUS DISPLAY+",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "command": "ZUCOV TFT DISABLE WARNING",
+      "responses": [
+        {
+          "response": "UCOV0226I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUFLD RS4 BP",
+      "responses": [
+        {
+          "response": "UFLD0001T",
+          "count": 3
+        },
+        {
+          "response": "UNFOLD RS4 COMPLETE",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZUPRF SU .1 U-W",
+      "responses": [
+        {
+          "response": "UPRF0034I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ZUTIP DIS ALL",
+      "responses": [
+        {
+          "response": "TCP70001I",
+          "count": 3
+        },
+        {
+          "response": "END OF DISPLAY",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ZVECT CRITICAL UPDATE ENABLE",
+      "responses": [
+        {
+          "response": "VC4G0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "Zapgm DSSQ 0CE 47F08A80 V-47808AD0 C-C",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "Zapgm DSSQ 0CE 47F08AB8 V-47808B08 C-C",
+      "responses": [
+        {
+          "response": "APGM0010I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "auto act hmc 411 load C000",
+      "responses": [
+        {
+          "response": "SPECIFY TPF CPU ID",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "auto act hmc 441 load C000",
+      "responses": [
+        {
+          "response": "SPECIFY TPF CPU ID",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "auto act hmc 461 load C000",
+      "responses": [
+        {
+          "response": "SPECIFY TPF CPU ID",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "auto act time",
+      "responses": [
+        {
+          "response": "CVRN0004I",
+          "count": 2
+        },
+        {
+          "response": "RESTART COMPLETED- 1052 STATE+",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "smpd/zstim a freq=every,time=10,msg=zuprf sum .10 U-W",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change ZMDES all nopco nosec nonec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change Zhtps all nopco nosec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zafil all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zdebe all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zdmsg all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zecbl all nopco norst nosec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zfmsg all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zjamc all nopco",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zoldr all norst nosec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zrtdm all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zstim all nopco norst nosec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zstrc all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change ztlbl all norst nosec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change ztmnt all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change ztoff all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change ztplf all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change ztsof all nopco",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zudfm all norst nosec",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zudta all norst",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zfmsg change zumpc all norst noprc nopco",
+      "responses": [
+        {
+          "response": "FMSG0004I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zlcfs vnd-soa apq-0c avail",
+      "responses": [
+        {
+          "response": "LCFS0001I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zmdes disp file-PNRfullda_all_Ka.evda.xml",
+      "responses": [
+        {
+          "response": "MDES0016I",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "zstim a freq-daily,time-2359,msg-ztpsw rta",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 3
+        },
+        {
+          "response": "MSG ADDED TO TIM TBL+",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "zstim a freq-daily,time-2359,msg-ztpsw rtl",
+      "responses": [
+        {
+          "response": "STMA0001I",
+          "count": 3
+        },
+        {
+          "response": "MSG ADDED TO TIM TBL+",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "command": "ztdev assign 741 841 group rtlgrp",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 2
+        },
+        {
+          "response": "ASSIGN 0741 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 2
+        },
+        {
+          "response": "ASSIGN 0841 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ztdev assign 742 842 group rtagrp",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 2
+        },
+        {
+          "response": "ASSIGN 0742 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 2
+        },
+        {
+          "response": "ASSIGN 0842 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ztdev assign 74A 84A group rtlgrp",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 074A GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 084A GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ztdev assign 74B 84B group rtagrp",
+      "responses": [
+        {
+          "response": "COT50003I",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 074B GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ASSIGN 084B GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ztdev enable 741 841",
+      "responses": [
+        {
+          "response": "COT50001I",
+          "count": 2
+        },
+        {
+          "response": "ENABLE 0741 - COMPLETE",
+          "count": 2
+        },
+        {
+          "response": "ENABLE 0841 - COMPLETE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ztdev enable 742 842",
+      "responses": [
+        {
+          "response": "COT50001I",
+          "count": 2
+        },
+        {
+          "response": "ENABLE 0742 - COMPLETE",
+          "count": 2
+        },
+        {
+          "response": "ENABLE 0842 - COMPLETE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ztdev enable 74A 84A",
+      "responses": [
+        {
+          "response": "COT50001I",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 074A - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 084A - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ztdev enable 74B 84B",
+      "responses": [
+        {
+          "response": "COT50001I",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 074B - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "ENABLE 084B - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ztdev unassign 700 800 group rtagrp",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 2
+        },
+        {
+          "response": "UNASSIGN 0700 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 2
+        },
+        {
+          "response": "UNASSIGN 0800 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ztdev unassign 701 801 group rtlgrp",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 2
+        },
+        {
+          "response": "UNASSIGN 0701 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 2
+        },
+        {
+          "response": "UNASSIGN 0801 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "command": "ztdev unassign 728 828 group rtagrp",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0728 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0828 GROUP RTAGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "command": "ztdev unassign 729 829 group rtlgrp",
+      "responses": [
+        {
+          "response": "COT50004I",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0729 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        },
+        {
+          "response": "UNASSIGN 0829 GROUP RTLGRP SSU BSS - COMPLETE",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

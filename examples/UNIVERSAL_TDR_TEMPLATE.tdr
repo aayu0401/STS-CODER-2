@@ -1,0 +1,37 @@
+*******************************************************************************
+* UNIVERSAL z/TPF .TDR GENERATOR TEMPLATE
+* Purpose: Verify host output responses for each command before proceeding.
+* Replace every <PLACEHOLDER>; remove unused examples before execution.
+* Review environment, command authority, and expected responses with an operator.
+*******************************************************************************
+*
+* GLOBAL UNEXPECTED STRINGS (optional; each GU is an abort condition)
+* GU:<GLOBAL_UNEXPECTED_MESSAGE_ID_OR_TEXT>
+*
+* CASE 1 - command with one or more required response strings
+C:<TPF_COMMAND_AND_PARAMETERS>
+T:120
+E:<EXPECTED_MESSAGE_ID_OR_TEXT>
+* Add another E: only when ALL listed expected strings must appear:
+* E:<SECOND_REQUIRED_RESPONSE_STRING>
+* LU:<UNEXPECTED_RESPONSE_FOR_THIS_COMMAND>
+*
+* CASE 2 - command with no response assertion (use intentionally)
+C:<COMMAND_THAT_DOES_NOT_REQUIRE_RESPONSE_CHECK>
+*
+* CASE 3 - additional command block
+C:<NEXT_COMMAND>
+T:120
+E:<EXPECTED_RESPONSE>
+*
+* Notes:
+* - Blank lines and comment lines are ignored by the TDR parser.
+* - Each key/value entry must occupy one physical line.
+* - C: begins a command block; E: lines following it are associated with that command
+*   until another command block begins.
+* - Multiple E: entries mean all expected strings are required (AND).
+* - Multiple GU: or LU: entries behave as alternative unexpected matches (OR).
+* - IBM documentation describes T:/TC: timeout range as >60 and <3600 seconds;
+*   confirm the exact rule for the installed z/TPF level and runner.
+* - TC: behavior and some advanced keys are RAVEN/TDRV-specific; do not add unless
+*   the execution environment supports them.

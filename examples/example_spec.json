@@ -1,0 +1,23 @@
+{
+  "global_unexpected": [],
+  "steps": [
+    {
+      "command": "ZDSYS",
+      "timeout": 120,
+      "expected": [
+        "<EXPECTED_SYSTEM_STATUS_MESSAGE_ID>",
+        "<EXPECTED_STATE_TEXT>"
+      ],
+      "unexpected": [
+        "<UNEXPECTED_ERROR_TEXT>"
+      ],
+      "comment": "Example only - replace placeholders with verified output for your target system."
+    },
+    {
+      "command": "<NEXT_COMMAND>",
+      "expected": [
+        "<EXPECTED_MESSAGE_ID_OR_TEXT>"
+      ]
+    }
+  ]
+}
